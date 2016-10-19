@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		
-
-	</head>
+	<head></head>
 
 	<body>
 			<div id="app"></div>
-<script type="text/javascript" src="build/bundle.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+	<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyDZ-P8hjP43tHHSxjiXYBf5ox6kS85KZ7U",
+		    authDomain: "chatdemo-2e1ab.firebaseapp.com",
+		    databaseURL: "https://chatdemo-2e1ab.firebaseio.com",
+		    storageBucket: "chatdemo-2e1ab.appspot.com",
+		    messagingSenderId: "675550151128"
+		  };
+		  firebase.initializeApp(config);
+	</script>
+
+
+			<script type="text/javascript" src="build/bundle.js"></script>
 
 	</body>	
 
